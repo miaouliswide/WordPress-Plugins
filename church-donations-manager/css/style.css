@@ -1,0 +1,100 @@
+.cdm-donations {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cdm-donations .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative; /* For positioning the urgent label */
+}
+
+.cdm-donations .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.cdm-donations .card-link:hover .card {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cdm-donations .card.urgent {
+    border: 2px solid #dc3545; /* Red border for urgent cards */
+}
+
+.cdm-donations .urgent-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.cdm-donations .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cdm-donations .card-body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.cdm-donations .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.cdm-donations .card-text {
+    font-size: 1rem;
+}
+
+.cdm-donations .card-footer {
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+.cdm-share .share-icon {
+    margin-left: 10px;
+    color: #0066cc;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.cdm-share .share-icon:hover {
+    color: #003087;
+}
+
+@media (max-width: 768px) {
+    .cdm-donations .card {
+        margin-bottom: 20px;
+    }
+
+    .cdm-donations .card-img-top {
+        height: 150px;
+    }
+
+    .cdm-donations .card-title {
+        font-size: 1.1rem;
+    }
+
+    .cdm-donations .urgent-label {
+        font-size: 0.7rem;
+        padding: 3px 8px;
+    }
+}

@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Church Donations Manager 1.5\n"
+"POT-Creation-Date: 2025-03-20 12:00+0000\n"
+"PO-Revision-Date: 2025-03-20 12:00+0000\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#: church-donations-manager.php
+msgid "Donations"
+msgstr "Δωρεές"
+
+#: church-donations-manager.php
+msgid "Donation"
+msgstr "Δωρεά"
+
+#: church-donations-manager.php
+msgid "Add New"
+msgstr "Προσθήκη Νέου"
+
+#: church-donations-manager.php
+msgid "Add New Donation"
+msgstr "Προσθήκη Νέας Δωρεάς"
+
+#: church-donations-manager.php
+msgid "Donation Categories"
+msgstr "Κατηγορίες Δωρεών"
+
+#: church-donations-manager.php
+msgid "Donation Category"
+msgstr "Κατηγορία Δωρεάς"
+
+#: church-donations-manager.php
+msgid "Urgency"
+msgstr "Επείγον"
+
+#: church-donations-manager.php
+msgid "Mark as Urgent"
+msgstr "Σήμανση ως Επείγον"
+
+#: church-donations-manager.php
+msgid "Urgent"
+msgstr "Επείγον"
+
+#: church-donations-manager.php
+msgid "No donations found."
+msgstr "Δεν βρέθηκαν δωρεές."
+
+#: church-donations-manager.php
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: church-donations-manager.php
+msgid "Styling Options"
+msgstr "Επιλογές Στυλ"
+
+#: church-donations-manager.php
+msgid "Card Title Color"
+msgstr "Χρώμα Τίτλου Κάρτας"
+
+#: church-donations-manager.php
+msgid "Text Color"
+msgstr "Χρώμα Κειμένου"
+
+#: church-donations-manager.php
+msgid "Background Color"
+msgstr "Χρώμα Φόντου"
+
+#: church-donations-manager.php
+msgid "Available Shortcodes"
+msgstr "Διαθέσιμοι Σύντομοι Κωδικοί"
+
+#: church-donations-manager.php
+msgid "Use the following shortcodes to display donation posts on your pages or posts."
+msgstr "Χρησιμοποιήστε τους παρακάτω σύντομους κωδικούς για να εμφανίσετε αναρτήσεις δωρεών στις σελίδες ή τις αναρτήσεις σας."
+
+#: church-donations-manager.php
+msgid "Shortcode"
+msgstr "Σύντομος Κωδικός"
+
+#: church-donations-manager.php
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: church-donations-manager.php
+msgid "Example"
+msgstr "Παράδειγμα"
+
+#: church-donations-manager.php
+msgid "Displays the 3 latest donation posts."
+msgstr "Εμφανίζει τις 3 τελευταίες αναρτήσεις δωρεών."
+
+#: church-donations-manager.php
+msgid "Displays donation posts from a specific category (replace \"slug\" with the category slug, e.g., \"blood\")."
+msgstr "Εμφανίζει αναρτήσεις δωρεών από μια συγκεκριμένη κατηγορία (αντικαταστήστε το \"slug\" με το slug της κατηγορίας, π.χ. \"blood\")."
+
+#: church-donations-manager.php
+msgid "Displays only urgent donation posts."
+msgstr "Εμφανίζει μόνο τις επείγουσες αναρτήσεις δωρεών."
+
+#: church-donations-manager.php
+msgid "Controls the number of posts to display (default is 3)."
+msgstr "Ελέγχει τον αριθμό των αναρτήσεων που θα εμφανιστούν (προεπιλογή είναι 3)."
