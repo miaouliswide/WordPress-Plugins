@@ -1,0 +1,212 @@
+# Greek translation for Post Filter Plugin
+# Copyright (C) 2025
+# This file is distributed under the same license as the Post Filter Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Filter Plugin 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-20 12:00+0000\n"
+"PO-Revision-Date: 2025-03-20 12:00+0000\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: post-filter-plugin.php
+msgid "Category:"
+msgstr "Κατηγορία:"
+
+#: post-filter-plugin.php
+msgid "All Categories"
+msgstr "Όλες οι Κατηγορίες"
+
+#: post-filter-plugin.php
+msgid "Month:"
+msgstr "Μήνας:"
+
+#: post-filter-plugin.php
+msgid "All Months"
+msgstr "Όλοι οι Μήνες"
+
+#: post-filter-plugin.php
+msgid "January"
+msgstr "Ιανουάριος"
+
+#: post-filter-plugin.php
+msgid "February"
+msgstr "Φεβρουάριος"
+
+#: post-filter-plugin.php
+msgid "March"
+msgstr "Μάρτιος"
+
+#: post-filter-plugin.php
+msgid "April"
+msgstr "Απρίλιος"
+
+#: post-filter-plugin.php
+msgid "May"
+msgstr "Μάιος"
+
+#: post-filter-plugin.php
+msgid "June"
+msgstr "Ιούνιος"
+
+#: post-filter-plugin.php
+msgid "July"
+msgstr "Ιούλιος"
+
+#: post-filter-plugin.php
+msgid "August"
+msgstr "Αύγουστος"
+
+#: post-filter-plugin.php
+msgid "September"
+msgstr "Σεπτέμβριος"
+
+#: post-filter-plugin.php
+msgid "October"
+msgstr "Οκτώβριος"
+
+#: post-filter-plugin.php
+msgid "November"
+msgstr "Νοέμβριος"
+
+#: post-filter-plugin.php
+msgid "December"
+msgstr "Δεκέμβριος"
+
+#: post-filter-plugin.php
+msgid "Year/Week:"
+msgstr "Έτος/Εβδομάδα:"
+
+#: post-filter-plugin.php
+msgid "All Years"
+msgstr "Όλα τα Έτη"
+
+#: post-filter-plugin.php
+msgid "Current Week"
+msgstr "Τρέχουσα Εβδομάδα"
+
+#: post-filter-plugin.php
+msgid "Quick Filters:"
+msgstr "Γρήγορα Φίλτρα:"
+
+#: post-filter-plugin.php
+msgid "Select"
+msgstr "Επιλογή"
+
+#: post-filter-plugin.php
+msgid "Last Week"
+msgstr "Προηγούμενη Εβδομάδα"
+
+#: post-filter-plugin.php
+msgid "Last Month"
+msgstr "Προηγούμενος Μήνας"
+
+#: post-filter-plugin.php
+msgid "Last Year"
+msgstr "Προηγούμενο Έτος"
+
+#: post-filter-plugin.php
+msgid "Author:"
+msgstr "Συγγραφέας:"
+
+#: post-filter-plugin.php
+msgid "All Authors"
+msgstr "Όλοι οι Συγγραφείς"
+
+#: post-filter-plugin.php
+msgid "Tag:"
+msgstr "Ετικέτα:"
+
+#: post-filter-plugin.php
+msgid "Enter tag"
+msgstr "Εισαγωγή ετικέτας"
+
+#: post-filter-plugin.php
+msgid "Search Text:"
+msgstr "Κείμενο Αναζήτησης:"
+
+#: post-filter-plugin.php
+msgid "Search in post"
+msgstr "Αναζήτηση στην ανάρτηση"
+
+#: post-filter-plugin.php
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: post-filter-plugin.php
+msgid "By %s"
+msgstr "Από %s"
+
+#: post-filter-plugin.php
+msgid "No posts found."
+msgstr "Δεν βρέθηκαν αναρτήσεις."
+
+#: post-filter-plugin.php
+msgid "Post Filter Plugin Settings"
+msgstr "Ρυθμίσεις του Post Filter Plugin"
+
+#: post-filter-plugin.php
+msgid "Post Filter Settings"
+msgstr "Ρυθμίσεις Φίλτρου Αναρτήσεων"
+
+#: post-filter-plugin.php
+msgid "Configure the settings for the Post Filter Plugin."
+msgstr "Διαμορφώστε τις ρυθμίσεις για το Post Filter Plugin."
+
+#: post-filter-plugin.php
+msgid "Enable/Disable Filters"
+msgstr "Ενεργοποίηση/Απενεργοποίηση Φίλτρων"
+
+#: post-filter-plugin.php
+msgid "Category Filter"
+msgstr "Φίλτρο Κατηγορίας"
+
+#: post-filter-plugin.php
+msgid "Date Filtering (Month & Year/Week)"
+msgstr "Φιλτράρισμα Ημερομηνίας (Μήνας & Έτος/Εβδομάδα)"
+
+#: post-filter-plugin.php
+msgid "Quick Date Filters"
+msgstr "Γρήγορα Φίλτρα Ημερομηνίας"
+
+#: post-filter-plugin.php
+msgid "Author Filter"
+msgstr "Φίλτρο Συγγραφέα"
+
+#: post-filter-plugin.php
+msgid "Tag Filter"
+msgstr "Φίλτρο Ετικέτας"
+
+#: post-filter-plugin.php
+msgid "Search Text Filter"
+msgstr "Φίλτρο Κειμένου Αναζήτησης"
+
+#: post-filter-plugin.php
+msgid "Display Mode"
+msgstr "Λειτουργία Εμφάνισης"
+
+#: post-filter-plugin.php
+msgid "Horizontal (Under Hero Section)"
+msgstr "Οριζόντια (Κάτω από την Ενότητα Hero)"
+
+#: post-filter-plugin.php
+msgid "Sidebar (Use Shortcode)"
+msgstr "Πλευρική Στήλη (Χρήση Shortcode)"
+
+#: post-filter-plugin.php
+msgid "Choose how to display the filters. If \"Sidebar\" is selected, use the shortcode <code>[pfp_filters]</code> in a sidebar widget."
+msgstr "Επιλέξτε πώς να εμφανίζονται τα φίλτρα. Εάν επιλεγεί \"Πλευρική Στήλη\", χρησιμοποιήστε τον κωδικό <code>[pfp_filters]</code> σε ένα widget πλευρικής στήλης."
+
+#: post-filter-plugin.php
+msgid "Filter Order and Visibility"
+msgstr "Σειρά και Ορατότητα Φίλτρων"
+
+#: post-filter-plugin.php
+msgid "Drag and drop to reorder filters. Uncheck to hide a filter."
+msgstr "Σύρετε και αποθέστε για να αναδιατάξετε τα φίλτρα. Αποεπιλέξτε για να αποκρύψετε ένα φίλτρο."

@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Event Plugin 1.9\n"
+"POT-Creation-Date: 2025-03-17 12:00+0000\n"
+"PO-Revision-Date: 2025-03-17 12:00+0000\n"
+"Last-Translator: Your Name\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+msgid "Events"
+msgstr "Εκδηλώσεις"
+
+msgid "Event"
+msgstr "Εκδήλωση"
+
+msgid "Add New Event"
+msgstr "Προσθήκη Νέας Εκδήλωσης"
+
+msgid "Edit Event"
+msgstr "Επεξεργασία Εκδήλωσης"
+
+msgid "New Event"
+msgstr "Νέα Εκδήλωση"
+
+msgid "View Event"
+msgstr "Προβολή Εκδήλωσης"
+
+msgid "Search Events"
+msgstr "Αναζήτηση Εκδηλώσεων"
+
+msgid "No events found"
+msgstr "Δεν βρέθηκαν εκδηλώσεις"
+
+msgid "No events found in Trash"
+msgstr "Δεν βρέθηκαν εκδηλώσεις στον Κάδο"
+
+msgid "Event Categories"
+msgstr "Κατηγορίες Εκδηλώσεων"
+
+msgid "Event Category"
+msgstr "Κατηγορία Εκδήλωσης"
+
+msgid "Search Event Categories"
+msgstr "Αναζήτηση Κατηγοριών Εκδηλώσεων"
+
+msgid "All Event Categories"
+msgstr "Όλες οι Κατηγορίες Εκδηλώσεων"
+
+msgid "Edit Event Category"
+msgstr "Επεξεργασία Κατηγορίας Εκδήλωσης"
+
+msgid "Update Event Category"
+msgstr "Ενημέρωση Κατηγορίας Εκδήλωσης"
+
+msgid "Add New Event Category"
+msgstr "Προσθήκη Νέας Κατηγορίας Εκδήλωσης"
+
+msgid "New Event Category Name"
+msgstr "Όνομα Νέας Κατηγορίας Εκδήλωσης"
+
+msgid "Event Details"
+msgstr "Λεπτομέρειες Εκδήλωσης"
+
+msgid "Event Date:"
+msgstr "Ημερομηνία Εκδήλωσης:"
+
+msgid "Event Time:"
+msgstr "Ώρα Εκδήλωσης:"
+
+msgid "Event Location:"
+msgstr "Τοποθεσία Εκδήλωσης:"
+
+msgid "Speaker (Optional):"
+msgstr "Ομιλητής (Προαιρετικό):"
+
+msgid "Date"
+msgstr "Ημερομηνία"
+
+msgid "Status"
+msgstr "Κατάσταση"
+
+msgid "Upcoming"
+msgstr "Επερχόμενο"
+
+msgid "Live"
+msgstr "Ζωντανά"
+
+msgid "Past"
+msgstr "Παρελθόν"
+
+msgid "No events found."
+msgstr "Δεν βρέθηκαν εκδηλώσεις."
+
+msgid "Location:"
+msgstr "Τοποθεσία:"
+
+msgid "Attendees:"
+msgstr "Συμμετέχοντες:"
+
+msgid "Category:"
+msgstr "Κατηγορία:"
+
+msgid "Speaker:"
+msgstr "Ομιλητής:"
+
+msgid "RSVP"
+msgstr "Παρουσία"
+
+msgid "Cancel RSVP"
+msgstr "Ακύρωση Παρουσίας"
+
+msgid "Simple Event Plugin Settings"
+msgstr "Ρυθμίσεις Simple Event Plugin"
+
+msgid "Event Settings"
+msgstr "Ρυθμίσεις Εκδηλώσεων"
+
+msgid "Primary Color (Titles, Accents)"
+msgstr "Πρωτεύον Χρώμα (Τίτλοι, Τονισμοί)"
+
+msgid "Secondary Color (Card Background)"
+msgstr "Δευτερεύον Χρώμα (Φόντο Κάρτας)"
+
+msgid "Text Color"
+msgstr "Χρώμα Κειμένου"
+
+msgid "Accent Color (Hover)"
+msgstr "Χρώμα Τονισμού (Hover)"
+
+msgid "Show Event Category"
+msgstr "Εμφάνιση Κατηγορίας Εκδήλωσης"
+
+msgid "Show Event Speaker"
+msgstr "Εμφάνιση Ομιλητή Εκδήλωσης"
+
+msgid "Show Event Description"
+msgstr "Εμφάνιση Περιγραφής Εκδήλωσης"
+
+msgid "Show Attendees Count"
+msgstr "Εμφάνιση Αριθμού Συμμετεχόντων"
+
+msgid "Yes"
+msgstr "Ναι"
+
+msgid "No"
+msgstr "Όχι"
+
+msgid "Max Number of Cards (Desktop)"
+msgstr "Μέγιστος Αριθμός Καρτών (Desktop)"
+
+msgid "Set the maximum number of event cards to display on desktop. Tablet will show up to 2, and mobile up to 1."
+msgstr "Ορίστε τον μέγιστο αριθμό καρτών εκδηλώσεων για εμφάνιση σε desktop. Το tablet θα δείχνει έως 2, και το κινητό έως 1."
+
+msgid "Display Mode"
+msgstr "Τρόπος Εμφάνισης"
+
+msgid "Max 3 Latest"
+msgstr "Μέγιστο 3 Πρόσφατα"
+
+msgid "Max 3 Oldest"
+msgstr "Μέγιστο 3 Παλαιότερα"
+
+msgid "Current Quarter"
+msgstr "Τρέχον Τρίμηνο"
+
+msgid "Status"
+msgstr "Κατάσταση"
+
+msgid "Choose which events to display: latest, oldest, or those in the current quarter."
+msgstr "Επιλέξτε ποιες εκδηλώσεις να εμφανίζονται: οι τελευταίες, οι παλαιότερες ή αυτές στο τρέχον τρίμηνο."
+
+msgid "Shortcode Reference"
+msgstr "Αναφορά Shortcode"
+
+msgid "Use the following shortcodes to display events:"
+msgstr "Χρησιμοποιήστε τα παρακάτω shortcodes για να εμφανίσετε εκδηλώσεις:"
+
+msgid "Display events in a carousel based on display mode."
+msgstr "Εμφάνιση εκδηλώσεων σε καρουσέλ με βάση τον τρόπο εμφάνισης."
+
+msgid "Filter by category."
+msgstr "Φιλτράρισμα κατά κατηγορία."
+
+msgid "Display a single event by ID."
+msgstr "Εμφάνιση μίας εκδήλωσης με βάση το ID."
+
+msgid "Display all events in a calendar view."
+msgstr "Εμφάνιση όλων των εκδηλώσεων σε προβολή ημερολογίου."

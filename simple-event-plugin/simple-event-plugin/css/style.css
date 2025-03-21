@@ -1,0 +1,264 @@
+/* Root variables for customizable colors */
+:root {
+    --primary-color: #0073aa;
+    --secondary-color: #f5f5f5;
+    --text-color: #333;
+    --accent-color: #00aaff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the event list */
+.sep-events-list {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* Carousel-specific styles */
+.sep-carousel {
+    overflow: hidden;
+}
+
+.sep-carousel-inner {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Calendar view styles */
+.sep-events-calendar {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.sep-events-calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sep-events-calendar th, .sep-events-calendar td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.sep-events-calendar th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Clickable event link wrapper */
+.sep-event-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    position: relative;
+}
+
+/* Individual event card */
+.sep-event {
+    background-color: var(--secondary-color);
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    padding: 0;
+    width: 300px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    flex: 0 0 auto;
+}
+
+/* Hover effect for cards */
+.sep-event-link:hover .sep-event {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px var(--shadow-color);
+    border-color: var(--accent-color);
+}
+
+/* Featured image styling */
+.sep-event .sep-event-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Date-Time box in top right corner */
+.sep-event-datetime-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 16px; /* Larger for distinction */
+    font-weight: 700;
+    white-space: nowrap;
+    letter-spacing: 0.5px; /* Slight spacing for readability */
+}
+
+/* Content wrapper inside the card */
+.sep-event .sep-event-content {
+    padding: 20px;
+    min-height: 200px; /* Adjusted since description is optional */
+}
+
+/* Event title */
+.sep-event h2 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%; /* Prevents overflow */
+}
+
+/* Event details */
+.sep-event p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+/* Bold labels */
+.sep-event p strong {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+/* Event status */
+.sep-event-status {
+    font-weight: bold;
+}
+
+.sep-status-upcoming {
+    color: #28a745;
+}
+
+.sep-status-live {
+    color: #dc3545;
+}
+
+.sep-status-past {
+    color: #6c757d;
+}
+
+/* Action buttons (RSVP and Social) */
+.sep-action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* RSVP form */
+.sep-rsvp-form {
+    display: inline-block;
+    margin: 0; /* Remove any default margin */
+}
+
+.sep-rsvp-form button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1; /* Ensure consistent height */
+}
+
+.sep-rsvp-form button.sep-rsvp-cancel {
+    background-color: #dc3545;
+}
+
+.sep-rsvp-form button:hover {
+    background-color: var(--accent-color);
+}
+
+.sep-rsvp-form button.sep-rsvp-cancel:hover {
+    background-color: #c82333;
+}
+
+/* Social buttons */
+.sep-social-buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sep-social-twitter, .sep-social-facebook {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 1; /* Ensure consistent height */
+}
+
+.sep-social-twitter {
+    background-color: #1da1f2;
+}
+
+.sep-social-twitter:hover {
+    background-color: #0d8ddb;
+}
+
+.sep-social-facebook {
+    background-color: #3b5998;
+}
+
+.sep-social-facebook:hover {
+    background-color: #2d4373;
+}
+
+/* Event description (optional) */
+.sep-event-description {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sep-event {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sep-event .sep-event-image {
+        height: 120px;
+    }
+    .sep-event h2 {
+        font-size: 22px;
+    }
+    .sep-event p {
+        font-size: 14px;
+    }
+    .sep-event .sep-event-content {
+        padding: 15px;
+        min-height: 180px;
+    }
+    .sep-event-datetime-box {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+    .sep-action-buttons {
+        flex-wrap: wrap;
+    }
+}

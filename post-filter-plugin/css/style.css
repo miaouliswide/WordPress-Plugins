@@ -1,0 +1,217 @@
+/* style.css */
+.pfp-filter-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pfp-filter-form {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pfp-filter-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: flex-end;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    min-height: 60px;
+    transition: all 0.3s ease; /* Smooth transition for layout changes */
+}
+
+.pfp-filter-row::-webkit-scrollbar {
+    height: 8px;
+}
+
+.pfp-filter-row::-webkit-scrollbar-thumb {
+    background: #0073aa;
+    border-radius: 4px;
+}
+
+.pfp-filter-item {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+    max-width: 150px;
+    transition: all 0.3s ease; /* Smooth transition for width and margin changes */
+}
+
+.pfp-filter-item label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.pfp-filter-item input,
+.pfp-filter-item select {
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.pfp-submit-wrapper {
+    flex: 0 0 auto;
+    min-width: auto;
+}
+
+.pfp-submit {
+    padding: 6px 20px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.3s ease; /* Smooth hover transition */
+}
+
+.pfp-submit:hover {
+    background: #005177;
+}
+
+.pfp-results .pfp-post {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.pfp-meta {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.pfp-pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Sidebar Layout */
+.pfp-filter-container.pfp-sidebar {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pfp-filter-container.pfp-sidebar .pfp-filter-form {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.pfp-filter-container.pfp-sidebar .pfp-filter-row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: visible;
+    align-items: stretch;
+    gap: 15px;
+    min-height: auto;
+}
+
+.pfp-filter-container.pfp-sidebar .pfp-filter-item {
+    min-width: 100%;
+    max-width: none;
+    margin: 0;
+}
+
+.pfp-filter-container.pfp-sidebar .pfp-filter-item input,
+.pfp-filter-container.pfp-sidebar .pfp-filter-item select {
+    font-size: 14px;
+}
+
+.pfp-filter-container.pfp-sidebar .pfp-submit-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.pfp-filter-container.pfp-sidebar .pfp-submit {
+    padding: 8px 30px;
+    font-size: 14px;
+}
+
+/* Tablet View (between 768px and 1024px) - Two Columns (only for horizontal layout) */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row {
+        display: grid !important; /* Switch to CSS Grid for two-column layout */
+        grid-template-columns: repeat(2, 1fr) !important; /* Two equal columns */
+        gap: 15px !important; /* Gap between items */
+        overflow-x: visible !important; /* Remove horizontal scrolling */
+        align-items: stretch !important; /* Stretch items to full height */
+        min-height: auto !important; /* Reset min-height */
+    }
+
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row .pfp-filter-item {
+        min-width: 100% !important; /* Full width within the grid column */
+        max-width: none !important; /* Remove max-width constraint */
+        margin: 0 !important; /* Reset margins */
+    }
+
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row .pfp-filter-item input,
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row .pfp-filter-item select {
+        font-size: 14px !important; /* Slightly larger font for better readability */
+    }
+
+    /* Ensure the submit button spans both columns and is centered */
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row .pfp-submit-wrapper {
+        grid-column: 1 / -1 !important; /* Span across both columns */
+        display: flex !important;
+        justify-content: center !important; /* Center the button */
+    }
+
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row .pfp-submit-wrapper .pfp-submit {
+        padding: 8px 30px !important; /* Larger button for better touch target */
+        font-size: 14px !important;
+    }
+}
+
+/* Mobile View (768px and below) - Single Column (only for horizontal layout) */
+@media (max-width: 768px) {
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row {
+        display: flex !important; /* Back to flex for single-column layout */
+        flex-direction: column !important; /* Stack vertically */
+        flex-wrap: wrap !important; /* Allow wrapping */
+        overflow-x: visible !important; /* Remove horizontal scrolling */
+        align-items: stretch !important; /* Stretch items to full width */
+        gap: 15px !important; /* Increase gap for better spacing */
+        padding: 10px !important; /* Add padding for better spacing on smaller screens */
+    }
+
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row .pfp-filter-item {
+        min-width: 100% !important; /* Full width for each item */
+        max-width: none !important; /* Remove max-width constraint */
+        margin: 0 !important; /* Reset margins */
+    }
+
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row .pfp-filter-item input,
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row .pfp-filter-item select {
+        font-size: 14px !important; /* Slightly larger font for better readability */
+    }
+
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row .pfp-submit-wrapper {
+        display: flex !important;
+        justify-content: center !important; /* Center the button */
+    }
+
+    .pfp-filter-container:not(.pfp-sidebar) .pfp-filter-form .pfp-filter-row .pfp-submit-wrapper .pfp-submit {
+        padding: 8px 30px !important; /* Larger button for better touch target */
+        font-size: 14px !important;
+    }
+}
