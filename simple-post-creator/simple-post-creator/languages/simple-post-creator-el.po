@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Post Creator 1.1\n"
+"POT-Creation-Date: 2025-03-23 12:00+0000\n"
+"PO-Revision-Date: 2025-03-23 12:00+0000\n"
+"Language-Team: xAI\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Simple Post Creator"
+msgstr "Απλός Δημιουργός Αναρτήσεων"
+
+msgid "Add New Post"
+msgstr "Προσθήκη Νέας Ανάρτησης"
+
+msgid "Create a New Post"
+msgstr "Δημιουργία Νέας Ανάρτησης"
+
+msgid "Title"
+msgstr "Τίτλος"
+
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+msgid "Category"
+msgstr "Κατηγορία"
+
+msgid "Tag"
+msgstr "Ετικέτα"
+
+msgid "Featured Image"
+msgstr "Επιλεγμένη Εικόνα"
+
+msgid "Upload Image"
+msgstr "Ανέβασμα Εικόνας"
+
+msgid "Publish Post"
+msgstr "Δημοσίευση Ανάρτησης"
+
+msgid "Edit Posts"
+msgstr "Επεξεργασία Αναρτήσεων"
