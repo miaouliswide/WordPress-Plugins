@@ -1,0 +1,80 @@
+/* Kadence FAQ Plugin Styles */
+.kadence-faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.kadence-faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.kadence-faq-question {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--global-palette1, #3182ce); /* Kadence theme primary color */
+    cursor: pointer;
+    transition: color 0.2s ease;
+    position: relative;
+    padding-right: 30px;
+    line-height: 1.4;
+}
+
+.kadence-faq-question:hover {
+    color: var(--global-palette2, #2b6cb0); /* Kadence theme primary dark */
+}
+
+.kadence-faq-toggle {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.kadence-faq-toggle::before {
+    content: '+';
+    font-size: 1.5rem;
+    color: var(--global-palette1, #3182ce);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+.kadence-faq-question[aria-expanded="true"] .kadence-faq-toggle::before {
+    content: '−';
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.kadence-faq-answer {
+    font-size: 1rem;
+    line-height: 1.6;
+    color:inherit !important;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 15px;
+}
+
+.kadence-faq-answer.active {
+    max-height: 1000px; /* Adjust as needed */
+    padding: 15px 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .kadence-faq-container {
+        padding: 15px;
+    }
+    
+    .kadence-faq-question {
+        font-size: 1.1rem;
+    }
+}

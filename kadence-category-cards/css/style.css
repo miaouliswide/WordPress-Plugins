@@ -1,0 +1,54 @@
+.kcc-category-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.kcc-category-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.kcc-category-title {
+    font-size: 24px;
+    margin: 0 0 15px;
+    color: #333;
+}
+
+.kcc-posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.kcc-post-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.kcc-post-item:last-child {
+    border-bottom: none;
+}
+
+.kcc-post-item h3 {
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+
+.kcc-post-item h3 a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.kcc-post-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.kcc-post-excerpt {
+    font-size: 14px;
+    color: #666;
+}
